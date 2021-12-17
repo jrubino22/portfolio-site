@@ -25,18 +25,12 @@
 }
 
 .header{
-    background: no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url(../images/web-dev-header.jpg);
+    background-attachment: fixed;
     background-size: cover;
-    min-width: cover;
-    margin: none;
-    height: 100% !important;
-    margin: 0 !important;
-    padding: 1em !important;
-}
+    background-position: center;
 
+   }
 .overlay{
     position: absolute;
     min-height: 100%;
@@ -44,4 +38,9 @@
     left: 0;
     top: 0;
     background: rgba(244, 244, 244, 0.79);
+   }
+
+.head-img{
+    min-width: 100%;
+   
    }

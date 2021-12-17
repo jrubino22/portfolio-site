@@ -1,4 +1,4 @@
-$(document) .load(function(){
+$(document) .ready(function(){
     $('.header').height($(window).height());
     
    })
