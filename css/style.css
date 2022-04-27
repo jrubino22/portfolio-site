@@ -106,18 +106,22 @@
    }
 
    .portfolio{
-    margin: 4em 0;
        position: relative; 
    }
 
-   .portfolio h1{
+   .portfolio h2{
     color:#F97300;
     margin: 2em; 
+    font-size: 3em
    }
 
    .portfolio img{
      height: 15rem;
      width: 100%;
      margin: 1em;
-     
+     border-style: double;    
+   }
+
+   .portfolio h3{
+       font-size: 1.4em
    }
