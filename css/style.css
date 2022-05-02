@@ -111,7 +111,7 @@
 
    .portfolio h2{
     color:#F97300;
-    margin: 2em; 
+    margin: 2em;
     font-size: 3em
    }
 
@@ -124,4 +124,8 @@
 
    .portfolio h3{
        font-size: 1.4em
+   }
+
+   .center-text {
+       text-align: center;
    }
