@@ -44,14 +44,37 @@
 .text-overlay{
 	background-color: rgba(250,250,250,0.9);
 	padding: 30px;
-	max-width: 600px;
+	max-width: 650px;
 }
 
-   .description {
+@media screen and (max-width: 850px){
+.description {
     position: absolute;
-    margin-top: 10%;
+    top: 12%;
     padding: 2em;
+    left: 5%;
+    right: 5%
 }
+}
+@media screen and (min-width: 850px){
+.description {
+    position: absolute;
+    top: 20%;
+    padding: 2em;
+    left: 10%;
+    right: 10%
+}
+}
+
+@media screen and (min-width: 1100px){
+    .description {
+        position: absolute;
+        top: 20%;
+        padding: 2em;
+        left: 35%;
+        right: 30%
+    }
+    } 
 
 .description h1{
     color:#F97300 ;
@@ -67,12 +90,10 @@
     
    }
 
-.description button{
-    border:1px  solid #F97300;
-    background:#F97300;
-    color:#fff;
-    text-align: left;
- }  
+ .description a:hover{
+    background: #f4f4f4!important; 
+    color: #f97300!important; 
+ }
 
  .about{
     margin: 4em 0;
@@ -87,7 +108,7 @@
 
    .about img{
     height: 100%;
-       width: 100%;
+       width: 80%;
        border-radius: 50%
    }
 
