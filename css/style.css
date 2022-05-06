@@ -71,8 +71,8 @@
         position: absolute;
         top: 20%;
         padding: 2em;
-        left: 35%;
-        right: 30%
+        left: auto;
+        right: auto
     }
     } 
 
