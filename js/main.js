@@ -2,3 +2,9 @@ $(document) .ready(function(){
     $('.header').height($(window).height()*.75);
     
    })
+
+$(function () {
+    $("#vs-wholesale-image").click(function () {
+        $("#vs-wholesale-modal").modal("toggle");
+    })
+})
