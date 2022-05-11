@@ -163,4 +163,9 @@
        height: 250px
    }
 
+   .modal-header {
+    color: white;
+    background-color: #0275d8;
+   }
+
    

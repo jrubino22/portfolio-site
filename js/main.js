@@ -8,3 +8,9 @@ $(function () {
         $("#vs-wholesale-modal").modal("toggle");
     })
 })
+
+$(function () {
+    $("#violina-image").click(function () {
+        $("#violina-modal").modal("toggle");
+    })
+})
