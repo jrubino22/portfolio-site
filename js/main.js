@@ -26,3 +26,9 @@ $(function () {
         $("#shalom-modal").modal("toggle");
     })
 })
+
+$(function () {
+    $("#nucampsite-image").click(function () {
+        $("#nucampsite-modal").modal("toggle");
+    })
+})
