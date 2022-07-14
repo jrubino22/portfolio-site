@@ -32,3 +32,9 @@ $(function () {
         $("#nucampsite-modal").modal("toggle");
     })
 })
+
+$(function () {
+    $("#warranty-image").click(function () {
+        $("#warranty-modal").modal("toggle");
+    })
+})
